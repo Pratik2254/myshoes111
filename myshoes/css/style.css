@@ -1,0 +1,240 @@
+.navbar{
+    margin-bottom: 0px;
+    background-color: brown;
+    color: black;
+    /* position:fixed; */
+    /* z-index: +1;
+    overflow: hidden; */
+    width: 100%;
+}
+.back{
+    background: url(../img/back.jpg);
+    
+}
+
+#bannerImage{
+    padding-top:75px;
+    padding-bottom:50px;
+    margin-bottom: 20px;
+    text-align:center;
+    color:grey;
+    background:url(../img/bann.webp);
+    width: 100%;
+    
+    background-size:cover;
+  
+}
+
+#bannerContent{
+    position:relative;
+    padding-top:6%;
+    padding-bottom:6%;
+    margin-top:12%;
+    margin-bottom:12%;
+    background-color:rgba(0,0,0,0.2);
+    max-width:660px;
+    /* opacity: 0.2; */
+}
+
+
+
+.plus-minus{
+    display: inline;
+}
+
+.footers { 
+    position: absolute; 
+    bottom:0; 
+    right:0;
+    left:0;
+}
+
+html { 
+    min-height:100%;
+    position:relative;    
+} 
+.one{
+    background-color: brown;
+    margin-bottom: 0%;
+}
+
+
+
+.footer{
+    background-color:brown;
+    color:beige;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px;    
+    bottom:0;
+}
+.connected{
+    color:black;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: large;
+
+}
+#two{
+    font-size: 15px;
+
+}
+.addshoes_form{
+    margin-left: 400px;
+}
+.addshoes_form>form>input[type=text]{
+    margin: 1vh 0;
+    padding: 1vh 1vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 25vw;
+    font-size: 1.1em;
+    text-align: center;
+}
+.addshoes_form>form>input[type=file]{
+    margin: 1vh 0;
+    padding: 1vh 1vw;
+    border-radius: 5px;
+    width: 20vw;
+    font-size: 1.1em;
+}
+.addshoes_form>form>input[type=submit]{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(246, 94, 236);
+    width: 10vw;
+    font-size: 1.25em;
+    height: 2em;
+    
+}
+.loginform{
+    margin-left: 400px;
+}
+.loginform>form>input[type=text]{
+    margin: 1vh 0;
+    padding: 1vh 1vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 25vw;
+    font-size: 1.1em;
+    text-align: center;
+}
+.loginform>form>input[type=password]{
+    margin: 1vh 0;
+    padding: 1vh 1vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 25vw;
+    font-size: 1.1em;
+    text-align: center;
+}
+.loginform>form>input[type=submit]{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 120px;
+    background-color: rgb(246, 94, 236);
+    width: 10vw;
+    font-size: 1.25em;
+    height: 2em;
+    
+}
+#showshoes{
+    margin-left: 400px;
+}
+#showshoes>table{
+    border-collapse: collapse;
+    border: 1px solid black;
+
+    margin: 2vh 5vw;
+}
+#showshoes>table>th, td{
+    text-align: left;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+#showshoes>table>tr:nth-child(even){background-color: aliceblue}
+#showshoes>table>th{
+    background-color: rgba(247,205,162,0.75);
+    height: 3vh;
+}
+.admin_table{
+    margin-left: 300px;
+}
+.admin_table>table{
+    border-collapse: collapse;
+    border: 1px solid black;
+
+    margin: 2vh 5vw;
+}
+.admin_table>table>th, td{
+    text-align: left;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+.admin_table>table>tr:nth-child(even){background-color: aliceblue}
+.admin_table>table>th{
+    background-color: rgba(247,205,162,0.75);
+    height: 3vh;
+}
+
+
+.add{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25%;
+    padding: 5px;
+}
+.add>a>button{
+    font-size: 50px;
+    color: black;
+    
+    background: gold;
+    
+}
+.conn{
+    width:250px;
+    padding-top:5px;
+    border-style:solid;
+    border-color:brown;
+    border-width:1px;
+    padding-left:3px;
+    padding-bottom:10px;
+    margin-left: 250px;
+    color: black;
+    
+}
+.footer_class{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+@media (min-width:320px){
+    #autoResize{
+        font-size:12px;
+    }
+}
+@media (min-width:481px){
+    #autoResize{
+        font-size:16px;
+    }
+}
+@media (min-width:641px){
+    #autoResize{
+        font-size:18px;
+    }
+}
+@media (min-width:961px){
+    #autoResize{
+        font-size:20px;
+    }
+}
+@media (min-width:1000px){
+    #autoResize{
+        font-size:26px;
+    }
+}
+
+
